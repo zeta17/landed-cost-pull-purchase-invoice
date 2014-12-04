@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include landed_cost_pull_pi *.css
+recursive-include landed_cost_pull_pi *.csv
+recursive-include landed_cost_pull_pi *.html
+recursive-include landed_cost_pull_pi *.ico
+recursive-include landed_cost_pull_pi *.js
+recursive-include landed_cost_pull_pi *.json
+recursive-include landed_cost_pull_pi *.md
+recursive-include landed_cost_pull_pi *.png
+recursive-include landed_cost_pull_pi *.py
+recursive-include landed_cost_pull_pi *.svg
+recursive-include landed_cost_pull_pi *.txt
+recursive-exclude landed_cost_pull_pi *.pyc
